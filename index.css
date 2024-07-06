@@ -1,0 +1,187 @@
+*{
+    
+    box-sizing: border-box;
+    font-family: poor richard;
+    font-size: 25px;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0, 0, .5);
+    background-color: black;
+    font-size: 30px;
+}
+.navbar .navbar-brand{
+    font-size: 30px!important;
+    font-weight: 800;
+    color: #66e22c!important;
+}
+#navbarSupportedContent a { 
+    color:white;
+    border-bottom: 2px solid  transparent;
+}     
+
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid  #66e22c;
+}
+#navbarSupportedContent .btn{
+    background: #66e22c;
+    width: 5rem;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#navbarSupportedContent .btn:hover{
+
+    color: white;
+    background-color: #5bc519;
+    border-bottom: none !important ;
+}
+.nav-item{
+    padding-right: 16px ;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(banner-1.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+#home .top{
+    color: #66e22c;
+    letter-spacing: 5px;
+    
+}
+
+
+#about .grid-layout img{
+    
+    background-color: blue;
+    height: 600px;
+    width: 400px;
+    border-radius: 50px;
+    margin-top: 60px;
+    text-align: center;
+    
+}
+#about .grid-layout h2 {
+    font-size: 60px;
+    margin-top: 50px;
+}
+#about .grid-layout p{
+    margin-top: 50px;
+}
+#about .grid-layout span{
+    color: #66e22c;
+    font-size:28px ;
+    font-weight: bold;
+}
+#about .grid-layout .box {
+    margin-top: 70px;
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 50px;
+    background-color: #be54a4;
+}
+
+#catergory .container h1 {
+    font-size: 70px;
+    margin-top: 40px;
+    border-bottom: 5px solid black;
+}
+#catergory h1 span{
+    font-size: 70px;
+    color: #66e22c;
+    
+}
+#catergory  .card{
+    border: none;
+    margin-top: 50px;
+}
+#catergory  .card img{
+    border-radius: 40px;
+}
+#catergory  .card-title {
+    font-size: 50px;
+    border-bottom: 4px solid black;
+}    
+#catergory  .card-title span{
+    font-size: 50px;
+    color: #66e22c;
+}
+#catergory  .card-text {
+    font-size: 20px;
+}
+#catergory  .card .btn {
+    background-color: #66e22c;
+    color: white;
+}
+#catergory  .card .btn:hover {
+    background-color: #5bc519;
+}
+#banner {
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(banner-2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+#banner h1{
+    color: White;
+    letter-spacing: 5px;
+}
+#contact {
+    background: #d3d3d3!important ;
+    
+}
+#contact .contact {
+    margin-top: 25px;
+}
+#contact  .grid-layout img{
+        background-color: blue;
+        height: 600px;
+        width: 400px;
+        border-radius: 50px;
+        margin-top: 60px;
+        text-align: center;
+}
+#contact  .grid-layout .links {
+    margin-top: 52px;
+    background: rgba(0, 0, 0, .5);
+    height: 60px;
+    border-radius: 12px;
+    align-items: center;
+}
+#contact .btn{
+    background-color:#66e22c ;
+
+}
+#contact .btn:hover{
+    background-color: #5bc519;
+}
+    
+
+#foot{
+        padding-top:50px;
+        width: 100%;
+        height: 50px;
+        background: rgba(0, 0, 0, .5);
+        margin-top:30px ;
+        text-align: center;
+        color: white;
+        padding: 5px;
+    }
+    @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
